@@ -609,8 +609,8 @@ a {
   /* Fix headings spacing */
   .page-header,
   .section-title {
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 7px;
+    padding-right: 7px;
   }
 
   /* Fix cart & wishlist spacing */
