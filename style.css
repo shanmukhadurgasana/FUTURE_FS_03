@@ -19,6 +19,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: var(--ink);
   background: linear-gradient(180deg, #fffaf0 0%, #ffffff 45%);
+  overflow-x: hidden;
 }
 
 a {
@@ -153,10 +154,8 @@ a {
 .grid {
   display: grid;
   gap: 25px;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  margin-left: 190px;
-  margin-right: 190px;
+  margin: 60px auto;
+  width: min(1120px,92vw);
 }
 
 .categories-grid {
@@ -568,11 +567,12 @@ a {
   .nav-link {
     display: block;
   }
-
+  
   .grid {
-    margin-left: 12px;
-    margin-right: 12px;
+    width:95px;
+    margin: 40px auto;
   }
+  
 
   .cart-item {
     grid-template-columns: 1fr;
