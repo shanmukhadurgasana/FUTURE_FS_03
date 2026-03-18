@@ -587,3 +587,50 @@ a {
     grid-template-columns: 1fr;
   }
 }
+
+/* 🔥 GLOBAL MOBILE PERFECT FIX */
+@media (max-width: 768px) {
+
+  /* Fix all sections alignment */
+  .container,
+  .grid {
+    width: 100% !important;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 40px auto !important;
+  }
+
+  /* Center all cards perfectly */
+  .card {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* Fix headings spacing */
+  .page-header,
+  .section-title {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  /* Fix cart & wishlist spacing */
+  .cart-items,
+  .contact-cards {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* Fix buttons alignment */
+  .inline-actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* Make buttons full width (mobile friendly) */
+  .btn,
+  .btn-gradient {
+    width: 100%;
+    text-align: center;
+  }
+}
+
